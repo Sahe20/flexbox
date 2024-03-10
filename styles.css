@@ -69,3 +69,17 @@
     align-self: flex-end;
     margin-bottom: 20px;
   }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-item {
+    border: 1px solid white;
+    background-color: skyblue;
+    height: 50px;
+    flex: 1;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+  }

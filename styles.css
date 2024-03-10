@@ -83,3 +83,8 @@
     text-align: center;
     padding-top: 15px;
   }
+  .footer-one, .footer-three {
+    background-color: rebeccapurple;
+    flex: initial;
+    width: 300px;
+  }

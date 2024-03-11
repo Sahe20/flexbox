@@ -1,3 +1,4 @@
+/* Floxbox page
 * {
     margin: 0;
     padding: 0;
@@ -90,4 +91,25 @@
   }
   .signup {
     margin-left: auto;
+  } */
+
+  .big {
+    background-color: maroon;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+  }
+
+  .one, .three {
+    background-color: pink;
+    padding: 20px;
+    flex: initial;
+    width: 125px;
+  }
+  .two {
+    background-color: pink;
+    padding: 20px;
+    width: 250px;
   }

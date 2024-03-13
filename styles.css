@@ -114,10 +114,38 @@
     flex-shrink: 1;
   } */
 
+/* Aligning with auto margins
   nav > ul {
     display: flex;
   }
 
   #login {
     margin-left: auto;
+  } */
+
+  .big {
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .first {
+    border: 3px solid blueviolet;
+    width: 100px;
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 5px;
+    flex: 1 1 100px;
+  }
+
+  .second, .third {
+    border: 3px solid blue;
+    width: 100px;
+    background-color: skyblue;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
   }

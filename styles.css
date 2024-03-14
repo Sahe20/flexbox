@@ -114,8 +114,7 @@
     flex-shrink: 1;
   }  */
 
- /* Aligning with auto margins */
-
+ /* Aligning with auto margins 
   nav > ul {
     display: flex;
     padding: 7px;
@@ -127,7 +126,8 @@
 
   #login {
     margin-left: auto;
-  } 
+  }
+  */ 
 
 /* Flexbox shorthand values
   .big {

@@ -155,3 +155,17 @@
     padding: 5px;
     margin-left: 20px;
   } */
+
+  h1 {
+    color: rgb(153, 24, 24);
+    font-style: oblique;
+    text-shadow: 2px 2px 8px;
+  }
+  div > article {
+    background-color: rgb(22, 148, 22);
+  }
+  div {
+    display: flex;
+    gap: 20px;
+    margin: 10px; 
+  }

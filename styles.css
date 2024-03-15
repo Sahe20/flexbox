@@ -229,7 +229,7 @@
     width: 60px;
     text-align: center;
   } */
-
+/* Flexbox in form
   form {
     display: flex;
     align-items: flex-end;
@@ -253,4 +253,4 @@
     flex-grow: 0;
     flex-basis: 80px;
   }
-  
+   */

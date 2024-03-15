@@ -209,7 +209,7 @@
     flex-grow: 1;
     flex-wrap: wrap;
   } */
-
+/* Alignment in css
   .container {
     border: 5px solid indigo;
     background-color: plum;
@@ -228,4 +228,12 @@
     height: 60px;
     width: 60px;
     text-align: center;
-  }
+  } */
+
+/*   form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+  } */
+

@@ -216,6 +216,7 @@
     height: 140px;
     display: flex;
     padding: 16px;
+    justify-content: space-between;
   }
 
   .container div {
@@ -223,5 +224,4 @@
     background-color: skyblue;
     height: 60px;
     width: 60px;
-    flex: 1;
   }

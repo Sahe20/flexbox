@@ -258,6 +258,8 @@
    .container {
     border: 2px solid silver;
     padding: 5px;
+    display: flex;
+    height: 300px;
    }
    .container div {
     border: 1px solid gray;

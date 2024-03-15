@@ -254,3 +254,15 @@
     flex-basis: 80px;
   }
    */
+
+   .container {
+    border: 2px solid silver;
+    padding: 5px;
+   }
+   .container div {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(172, 172, 172)
+   }

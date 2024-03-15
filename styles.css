@@ -155,7 +155,7 @@
     padding: 5px;
     margin-left: 20px;
   } */
-
+/* Making flexbox simple
   h1 {
     color: rgb(153, 24, 24);
     font-style: oblique;
@@ -182,4 +182,32 @@
   .second-article {
     background-color: pink;
     align-self: flex-start;
+  } */
+
+  .flex-container {
+    background-color: brown;
+    display: flex;
+    /* flex-direction: column; */
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    width: max-content;
+    margin: auto;
+  }
+
+  @media (max-width: 300px) {
+    .flex-container {
+      flex-direction: column;
+    }        
+  }
+
+  .flex-container > * {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    border: 4px solid brown;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    flex-wrap: wrap;
   }

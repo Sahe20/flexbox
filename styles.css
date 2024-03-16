@@ -254,7 +254,7 @@
     flex-basis: 80px;
   }
    */
-
+/* Intro to flexbox with josh comeau
    .container {
     border: 2px solid silver;
     padding: 5px;
@@ -267,4 +267,17 @@
     border-radius: 5px;
     margin: 2px;
     background-color: rgb(172, 172, 172)
+   } */
+
+   .item {
+    border: 2px solid;
+    background-color: palevioletred;
+    height: 50px;
+    border-radius: 6px;
+    margin: 20px;
+    width: 1300px;
    }
+   .container {
+    display: flex;
+   }
+   

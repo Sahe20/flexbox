@@ -269,15 +269,25 @@
     background-color: rgb(172, 172, 172)
    } */
 
-   .item {
-    border: 2px solid;
-    background-color: palevioletred;
-    height: 50px;
-    border-radius: 6px;
-    margin: 20px;
-    width: 1300px;
-   }
    .container {
+    border: 1px solid white;
+    background-color: black;
+    width: 600px;
     display: flex;
+    padding: 5px;
+    gap: 5px;
+    flex-direction: column;
+    border-radius: 5px;
    }
+   .container > div {
+    border: 3px solid silver;
+    height: 50px;
+    background-color: gray;
+    border-radius: 5px;
+   }
+   div > .one {
+    background-color: rgb(255, 255, 0);
+    flex-basis: 50px;
+   }
+
    

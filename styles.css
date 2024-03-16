@@ -326,14 +326,23 @@
     flex-grow: 1;
   } */
 
-  div {
+  .container {
     border: 1px solid silver;
     width: 300px;
     margin: auto;
-    text-align: center;
     background-color: aqua;
     border-radius: 10px;
+    padding: 10px;
   }
   form {
-    margin-bottom: 30px;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
   }
+  input {
+    min-width: 0px;
+  }
+  

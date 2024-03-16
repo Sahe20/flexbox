@@ -289,7 +289,10 @@
    div > .one {
     background-color: rgb(255, 255, 0);
     flex-basis: 50px;
-    flex-grow: 1;
+    flex-grow: 5;
+   }
+   div > .three {
+    flex-grow: 3;
    }
 
    

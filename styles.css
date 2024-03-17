@@ -325,7 +325,7 @@
     border-radius: 30px;
     flex-grow: 1;
   } */
-
+/* Applying min-width
   .container {
     border: 1px solid silver;
     width: 300px;
@@ -344,5 +344,5 @@
   }
   input {
     min-width: 0px;
-  }
+  } */
   

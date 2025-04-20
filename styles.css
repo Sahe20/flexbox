@@ -345,4 +345,16 @@
   input {
     min-width: 0px;
   } */
-  
+  .parent {
+    display: flex;
+    border: 5px solid blue;
+    background-color: aqua;
+    padding: 10px;
+  }
+  .parent > div {
+    border: 4px solid brown;
+    background-color: peachpuff;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+  }
